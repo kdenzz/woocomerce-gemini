@@ -14,7 +14,7 @@ export default function PluginGenerator() {
         setLoading(true);
         setGenerated(false);
         try {
-            const res = await axios.post("http://localhost:5000/api/generate", {
+            const res = await axios.post("https://woocomerce-gemini.onrender.com/api/generate", {
                 prompt
             });
             setPhpCode(res.data.code);
