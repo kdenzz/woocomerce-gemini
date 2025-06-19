@@ -1,0 +1,61 @@
+/* src/App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f1117;
+    color: #e4e4e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #60a5fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+button {
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+    button:hover {
+        background: linear-gradient(90deg, #2563eb, #1e40af);
+    }
+
+.editor-wrapper {
+    margin-top: 2rem;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(96, 165, 250, 0.1);
+}
